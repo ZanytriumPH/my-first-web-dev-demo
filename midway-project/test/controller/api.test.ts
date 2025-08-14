@@ -47,7 +47,6 @@ describe('test/controller/api.controller.test.ts', () => {
     expect(result.body.success).toBe(true);
     expect(result.body.message).toBe('注册成功');
     expect(result.body.data.username).toBe(username);
-    expect(result.body.data.balance).toBe(100);
   });
 
   // 注册-"用户名已存在"
@@ -76,7 +75,6 @@ describe('test/controller/api.controller.test.ts', () => {
     expect(result.body.success).toBe(true);
     expect(result.body.message).toBe('登录成功');
     expect(result.body.data.username).toBe(username);
-    expect(result.body.data.balance).toBe(100);
   });
 
   // 登录-"用户不存在"

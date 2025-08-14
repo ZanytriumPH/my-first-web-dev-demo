@@ -1,3 +1,4 @@
+// 请求耗时记录中间件
 import { Middleware, IMiddleware } from '@midwayjs/core';
 import { NextFunction, Context } from '@midwayjs/koa';
 
